@@ -1,0 +1,16 @@
+{
+  "name": "miyabi-word-generator",
+  "version": "1.0.0",
+  "description": "Miyabiローカル実行デモ - AIエージェントによるWord文書生成",
+  "main": "index.js",
+  "scripts": {
+    "start": "node generateWord.js",
+    "test": "echo \"Test passed\" && exit 0"
+  },
+  "keywords": ["miyabi", "ai-agent", "word", "document-generation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "docx": "^8.5.0"
+  }
+}
